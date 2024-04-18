@@ -16,7 +16,7 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 
-body {
+html, body {
   width: 100vw;
   height: 100vh;
   background-image: url(../images/bg-header-desktop.png);
@@ -350,8 +350,9 @@ body {
   .txttv {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     margin-top: 60px;
+    margin-left: 60px;
   }
   
   .txttv > div > h3 {
@@ -373,7 +374,6 @@ body {
   }
   
   .sessaoipad > p {
-    color: var(--Grayish-Blue);
     width: 300px;
     text-align: center;
     margin-bottom: 50px;
@@ -414,6 +414,71 @@ body {
   .workflow > div > .pcard {
     width: 200px;
     font-size: 14px;
+  }
+
+  .sessaofinal {
+    margin-top: 130px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .sessaodownload {
+    margin-top: 130px;
+  }
+  
+  .sessaodownload > h2 {
+    font-size: 20px;
+    text-align: center;
+    width: 230px;
+  }
+  
+  .sessaodownload > p {
+    width: 250px;
+    font-size: 14px;
+  }
+  
+  .footer {
+    background-color: hsla(0, 0%, 88%, 0.486);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 0px;
+    gap: 50px;
+  }
+  
+  .links > a {
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .links >a:hover {
+    color: var(--strong-cyan);
+  }
+  
+  .logofooter {
+    width: 60px;
+    margin-right: 0px;
+    margin-top: 16px;
+  }
+  
+  .social {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 30px;
   }
 
 }
