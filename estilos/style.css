@@ -385,4 +385,35 @@ body {
     width: 250px;
   }
 
+  .sessaoworkflow {
+    margin-top: 60px;
+  }
+  
+  .sessaoworkflow > h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  
+  .sessaoworkflow > p {
+    width: 200px;
+    margin-bottom: 60px;
+    font-size: 14px;
+  }  
+  
+  .workflow {
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .workflow > div > .h3card {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .workflow > div > .pcard {
+    width: 200px;
+    font-size: 14px;
+  }
+
 }
