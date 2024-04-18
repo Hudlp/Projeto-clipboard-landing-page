@@ -16,7 +16,8 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 
-html, body {
+
+ body {
   width: 100vw;
   height: 100vh;
   background-image: url(../images/bg-header-desktop.png);
@@ -118,15 +119,15 @@ html, body {
   display: flex; 
   margin-left: -30px; 
   justify-content: center;
+  padding: 0px;
  }
 
 .txttv {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  width: 400px;
   margin-top: 60px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .txttv > div > h3 {
@@ -340,7 +341,7 @@ html, body {
     flex-direction: column;  
     align-items: center;
     margin-left: 10px;
-    padding: 14px;
+
    }
 
    .imgtv {
@@ -350,10 +351,12 @@ html, body {
   .txttv {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 0px;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 0%;
+    align-items: center;
   }
+
   
   .txttv > div > h3 {
     font-size: 18px;
@@ -367,6 +370,7 @@ html, body {
     margin-top: 8px;
     text-align: center;
   }
+
   .sessaoipad > h2 {
     font-weight: 600;
     font-size: 20px;
