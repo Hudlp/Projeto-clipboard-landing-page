@@ -22,7 +22,7 @@ body {
   background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .sessaotopo {
@@ -285,4 +285,34 @@ body {
   gap: 20px;
   margin-top: 50px;
   margin-left: 300px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body{
+    background-image: url(../images/bg-header-mobile.png);
+    background-position: center left;
+  }
+
+  .sessaotopo {
+    
+  }
+
+  .logotopo {
+    width: 160px;
+  }
+
+  .sessaotopo > h1 {
+    text-align: center;
+  }
+
+  .sessaotopo > p {
+    width: 360px;
+    text-align: center;
+  }
+
+  .botao {
+    display: flex; 
+    flex-direction: column;
+  }
+
 }
