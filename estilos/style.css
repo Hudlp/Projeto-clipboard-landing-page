@@ -315,4 +315,9 @@ body {
     flex-direction: column;
   }
 
+  .botao > .link {
+    margin-top: 10px;
+    width: 250px;
+  }
+
 }
